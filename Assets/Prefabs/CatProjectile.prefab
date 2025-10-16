@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 3174435705341251989}
   - component: {fileID: 6818436523999099380}
   - component: {fileID: 6534574542264395797}
-  - component: {fileID: 890356605522033339}
   - component: {fileID: 3087599340581663795}
+  - component: {fileID: 1767210867582064340}
   m_Layer: 0
   m_Name: CatProjectile
   m_TagString: Untagged
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.27914, y: -0.4118, z: 0}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 3156895337291164288, guid: f5d96357e6ede4b8f93be63976a9f942, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -120,8 +120,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
---- !u!58 &890356605522033339
-CircleCollider2D:
+--- !u!114 &3087599340581663795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4547595532184460056}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eee755dff40bd48e8b472969a0151490, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CatProjectile
+  maxLifetime: 6
+--- !u!70 &1767210867582064340
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -155,17 +168,5 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.5
---- !u!114 &3087599340581663795
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4547595532184460056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eee755dff40bd48e8b472969a0151490, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CatProjectile
-  maxLifetime: 6
+  m_Size: {x: 0.3, y: 0.12}
+  m_Direction: 1
