@@ -33,7 +33,7 @@ public class PlayerFacing2D_World : MonoBehaviour {
             else if (Keyboard.current.dKey.isPressed || Keyboard.current.rightArrowKey.isPressed) { FacingRight = true; moved = true; }
         }
 
-        // faces mouse on idle
+        // Idle → face mouse X
         if (!moved && faceMouseWhenIdle && cam)
         {
             var mx = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue()).x;
@@ -42,9 +42,11 @@ public class PlayerFacing2D_World : MonoBehaviour {
     }
 
     void LateUpdate() {
+        if (sprite) sprite.flipX = !FacingRight; // assumes art faces RIGHT by default
+
         if (!throwOrigin || !bodyCol) return;
 
-        // Use world bounds so scaling/parents don’t matter
+        // Use WORLD bounds so scaling/parents don’t matter
         Bounds b = bodyCol.bounds; // world space
         float x = FacingRight ? (b.max.x + edgePadding) : (b.min.x - edgePadding);
         float y = b.center.y + yOffset;
@@ -54,7 +56,8 @@ public class PlayerFacing2D_World : MonoBehaviour {
     }
 
     // Call this from PlayerThrow before firing if you want aim to also flip
-    public void FaceTowardX(float worldX) {
+    public void FaceTowardX(float worldX)
+    {
         FacingRight = worldX >= transform.position.x;
     }
 }
