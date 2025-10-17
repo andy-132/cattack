@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\PlayerThrow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\joshc\\OneDrive\\Desktop\\GameDevelopment\\CattackGameJam\\cattack\\Assets\\Scripts\\Player\\PlayerFacing2D.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\PlayerFacing2D.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\joshc\\OneDrive\\Desktop\\GameDevelopment\\CattackGameJam\\cattack\\Assets\\Scripts\\CatProjectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\CatProjectile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\joshc\\OneDrive\\Desktop\\GameDevelopment\\CattackGameJam\\cattack\\Assets\\Scripts\\Player\\PlayerFacing2D.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Player\\PlayerFacing2D.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraFollow.cs",
               "ToolTip": "C:\\Users\\joshc\\OneDrive\\Desktop\\GameDevelopment\\CattackGameJam\\cattack\\Assets\\Scripts\\CameraFollow.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraFollow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T18:51:36.448Z",
               "EditorCaption": ""
@@ -49,14 +49,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerThrow.cs",
               "ToolTip": "C:\\Users\\joshc\\OneDrive\\Desktop\\GameDevelopment\\CattackGameJam\\cattack\\Assets\\Scripts\\Player\\PlayerThrow.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerThrow.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAG0AAABLAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAIBJwAMAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-16T18:48:25.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "PlayerFacing2D.cs",
               "DocumentMoniker": "C:\\Users\\joshc\\OneDrive\\Desktop\\GameDevelopment\\CattackGameJam\\cattack\\Assets\\Scripts\\Player\\PlayerFacing2D.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerFacing2D.cs",
@@ -64,12 +64,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerFacing2D.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-16T02:16:52.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-16T02:16:52.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CatProjectile.cs",
               "DocumentMoniker": "C:\\Users\\joshc\\OneDrive\\Desktop\\GameDevelopment\\CattackGameJam\\cattack\\Assets\\Scripts\\CatProjectile.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CatProjectile.cs",
