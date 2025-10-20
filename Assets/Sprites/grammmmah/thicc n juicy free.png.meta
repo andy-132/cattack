@@ -1,0 +1,923 @@
+fileFormatVersion: 2
+guid: df403b96997954e5ca09058d4a43bdfe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3824932703545217171
+    second: thicc n juicy free_0
+  - first:
+      213: -2587400685021677166
+    second: thicc n juicy free_1
+  - first:
+      213: 4309925601116182291
+    second: thicc n juicy free_2
+  - first:
+      213: 5608089448201429173
+    second: thicc n juicy free_3
+  - first:
+      213: -2724697153593159788
+    second: thicc n juicy free_4
+  - first:
+      213: -6493856907985052906
+    second: thicc n juicy free_5
+  - first:
+      213: 6002164871238693223
+    second: thicc n juicy free_6
+  - first:
+      213: 6891476306044414074
+    second: thicc n juicy free_7
+  - first:
+      213: -6451955256938814452
+    second: thicc n juicy free_8
+  - first:
+      213: -2265074975007455243
+    second: thicc n juicy free_9
+  - first:
+      213: 1205914953653206552
+    second: thicc n juicy free_10
+  - first:
+      213: -1059072025580082677
+    second: thicc n juicy free_11
+  - first:
+      213: 2247881420235902215
+    second: thicc n juicy free_12
+  - first:
+      213: -7039805547511910386
+    second: thicc n juicy free_13
+  - first:
+      213: 5676377664608400307
+    second: thicc n juicy free_14
+  - first:
+      213: -3567729754165404244
+    second: thicc n juicy free_15
+  - first:
+      213: 5057993087283983834
+    second: thicc n juicy free_16
+  - first:
+      213: -3664033394388031771
+    second: thicc n juicy free_17
+  - first:
+      213: 82435479958193918
+    second: thicc n juicy free_18
+  - first:
+      213: 4422042928315165136
+    second: thicc n juicy free_19
+  - first:
+      213: -7969781317284985794
+    second: thicc n juicy free_20
+  - first:
+      213: -7568725583742491223
+    second: thicc n juicy free_21
+  - first:
+      213: -5148697135939735322
+    second: thicc n juicy free_22
+  - first:
+      213: -8543666997658790963
+    second: thicc n juicy free_23
+  - first:
+      213: -5046373270184209080
+    second: thicc n juicy free_24
+  - first:
+      213: -9081768402521638277
+    second: thicc n juicy free_25
+  - first:
+      213: -4904364274237460860
+    second: thicc n juicy free_26
+  - first:
+      213: 2117182771526223314
+    second: thicc n juicy free_27
+  - first:
+      213: 434572723156214506
+    second: thicc n juicy free_28
+  - first:
+      213: -932076988027329250
+    second: thicc n juicy free_29
+  - first:
+      213: -1035018691488468517
+    second: thicc n juicy free_30
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: thicc n juicy free_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 159
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 390569c4704e41530800000000000000
+      internalID: 3824932703545217171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_1
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 159
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2993ead19c4b71cd0800000000000000
+      internalID: -2587400685021677166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_2
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 163
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31754eecf7eefcb30800000000000000
+      internalID: 4309925601116182291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_3
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 167
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0a9a4e3afe3dd40800000000000000
+      internalID: 5608089448201429173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_4
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 164
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fcf87ff5eef2ad0800000000000000
+      internalID: -2724697153593159788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_5
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 160
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b95515c8f21e5a0800000000000000
+      internalID: -6493856907985052906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_6
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 159
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761b2894629fb4350800000000000000
+      internalID: 6002164871238693223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_7
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 159
+        width: 56
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a786ccf003173af50800000000000000
+      internalID: 6891476306044414074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_8
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 111
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c04a273b0ec0676a0800000000000000
+      internalID: -6451955256938814452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_9
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 111
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7cd05af46d090e0800000000000000
+      internalID: -2265074975007455243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 111
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81eb4d9d2454cb010800000000000000
+      internalID: 1205914953653206552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 111
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0aeebb9a9b6d41f0800000000000000
+      internalID: -1059072025580082677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 111
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d8c5eed34123f10800000000000000
+      internalID: 2247881420235902215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_13
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 111
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e007abc27269d4e90800000000000000
+      internalID: -7039805547511910386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_14
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 111
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b3f1f5496b86ce40800000000000000
+      internalID: 5676377664608400307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 111
+        width: 48
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cad1164f0b0ec7ec0800000000000000
+      internalID: -3567729754165404244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_16
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 63
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad571fb1ae9913640800000000000000
+      internalID: 5057993087283983834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_17
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 63
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6255a6a0db62dc0800000000000000
+      internalID: -3664033394388031771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_18
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 63
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef60ccbd1aed42100800000000000000
+      internalID: 82435479958193918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_19
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 63
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d9e0c34d904e5d30800000000000000
+      internalID: 4422042928315165136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_20
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 63
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e340fad1e16a56190800000000000000
+      internalID: -7969781317284985794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_21
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 63
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a52e92be2c76f690800000000000000
+      internalID: -7568725583742491223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_22
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 63
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e0bd3cdb372c88b0800000000000000
+      internalID: -5148697135939735322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_23
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 63
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc3d155c12cce6980800000000000000
+      internalID: -8543666997658790963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_24
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 63
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 845d4a26f3ea7f9b0800000000000000
+      internalID: -5046373270184209080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_25
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 63
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ab45351c317f180800000000000000
+      internalID: -9081768402521638277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_26
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 63
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48ea5f05da230fbb0800000000000000
+      internalID: -4904364274237460860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_27
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 63
+        width: 48
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5c56d638eb16d10800000000000000
+      internalID: 2117182771526223314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_28
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 15
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae2ecc8d699e70600800000000000000
+      internalID: 434572723156214506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_29
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 15
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e15a051fae89013f0800000000000000
+      internalID: -932076988027329250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: thicc n juicy free_30
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 19
+        width: 53
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd1b0fddbffd2a1f0800000000000000
+      internalID: -1035018691488468517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      thicc n juicy free_0: 3824932703545217171
+      thicc n juicy free_1: -2587400685021677166
+      thicc n juicy free_10: 1205914953653206552
+      thicc n juicy free_11: -1059072025580082677
+      thicc n juicy free_12: 2247881420235902215
+      thicc n juicy free_13: -7039805547511910386
+      thicc n juicy free_14: 5676377664608400307
+      thicc n juicy free_15: -3567729754165404244
+      thicc n juicy free_16: 5057993087283983834
+      thicc n juicy free_17: -3664033394388031771
+      thicc n juicy free_18: 82435479958193918
+      thicc n juicy free_19: 4422042928315165136
+      thicc n juicy free_2: 4309925601116182291
+      thicc n juicy free_20: -7969781317284985794
+      thicc n juicy free_21: -7568725583742491223
+      thicc n juicy free_22: -5148697135939735322
+      thicc n juicy free_23: -8543666997658790963
+      thicc n juicy free_24: -5046373270184209080
+      thicc n juicy free_25: -9081768402521638277
+      thicc n juicy free_26: -4904364274237460860
+      thicc n juicy free_27: 2117182771526223314
+      thicc n juicy free_28: 434572723156214506
+      thicc n juicy free_29: -932076988027329250
+      thicc n juicy free_3: 5608089448201429173
+      thicc n juicy free_30: -1035018691488468517
+      thicc n juicy free_4: -2724697153593159788
+      thicc n juicy free_5: -6493856907985052906
+      thicc n juicy free_6: 6002164871238693223
+      thicc n juicy free_7: 6891476306044414074
+      thicc n juicy free_8: -6451955256938814452
+      thicc n juicy free_9: -2265074975007455243
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
