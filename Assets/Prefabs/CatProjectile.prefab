@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6534574542264395797}
   - component: {fileID: 3087599340581663795}
   - component: {fileID: 1767210867582064340}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: CatProjectile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -132,7 +132,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eee755dff40bd48e8b472969a0151490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CatProjectile
-  maxLifetime: 6
+  maxLifetime: 6.07
+  damage: 1
+  enemyLayers:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!70 &1767210867582064340
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

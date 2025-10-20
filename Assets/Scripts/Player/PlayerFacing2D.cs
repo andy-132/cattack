@@ -1,14 +1,16 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class PlayerFacing2D_World : MonoBehaviour {
+[DefaultExecutionOrder(1000)] // run late so we win the transform fight
+public class PlayerFacing2D_World : MonoBehaviour
+{
     [Header("Refs")]
-    [SerializeField] private BoxCollider2D bodyCol;   // Player BoxCollider2D
-    [SerializeField] private Transform throwOrigin;   // spawn point (can be child or not)
-    [SerializeField] private SpriteRenderer sprite;   // optional: to flip visuals
-    [SerializeField] private Camera cam;              // optional
+    [SerializeField] private BoxCollider2D bodyCol;     // drag the player's real collider here (even if on a child)
+    [SerializeField] private Transform throwOrigin;     // drag Player/ThrowOrigin
+    [SerializeField] private SpriteRenderer sprite;     // optional: player visuals
+    [SerializeField] private Camera cam;                // optional
 
-    [Header("Offsets (world units)")]
+    [Header("Offsets (world)")]
     [SerializeField] private float edgePadding = 0.08f; // extra beyond edge
     [SerializeField] private float yOffset = 0.10f;     // height above center
 
@@ -17,47 +19,56 @@ public class PlayerFacing2D_World : MonoBehaviour {
 
     public bool FacingRight { get; private set; } = true;
 
-    void Awake() {
+    void Awake()
+    {
         if (!cam) cam = Camera.main;
-        if (!bodyCol) bodyCol = GetComponent<BoxCollider2D>();
         if (!sprite) sprite = GetComponentInChildren<SpriteRenderer>();
+
+        // If bodyCol not assigned, try to find one anywhere under the player
+        if (!bodyCol) bodyCol = GetComponentInChildren<BoxCollider2D>();
+
+        if (!throwOrigin)
+            Debug.LogWarning("PlayerFacing2D_World: throwOrigin not assigned.", this);
+        if (!bodyCol)
+            Debug.LogWarning("PlayerFacing2D_World: bodyCol not assigned (will use Renderer.bounds).", this);
     }
 
-    void Update() {
+    void Update()
+    {
         bool moved = false;
 
-        // Keyboard sets facing
         if (Keyboard.current != null)
         {
             if (Keyboard.current.aKey.isPressed || Keyboard.current.leftArrowKey.isPressed) { FacingRight = false; moved = true; }
             else if (Keyboard.current.dKey.isPressed || Keyboard.current.rightArrowKey.isPressed) { FacingRight = true; moved = true; }
         }
 
-        // Idle → face mouse X
-        if (!moved && faceMouseWhenIdle && cam)
+        if (!moved && faceMouseWhenIdle && cam && Mouse.current != null)
         {
-            var mx = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue()).x;
+            float mx = cam.ScreenToWorldPoint(Mouse.current.position.ReadValue()).x;
             FacingRight = mx >= transform.position.x;
         }
     }
 
-    void LateUpdate() {
-        if (sprite) sprite.flipX = !FacingRight; // assumes art faces RIGHT by default
-
-        if (!throwOrigin || !bodyCol) return;
-
-        // Use WORLD bounds so scaling/parents don’t matter
-        Bounds b = bodyCol.bounds; // world space
-        float x = FacingRight ? (b.max.x + edgePadding) : (b.min.x - edgePadding);
-        float y = b.center.y + yOffset;
-
-        // Physically place the ThrowOrigin in world space
-        throwOrigin.position = new Vector3(x, y, throwOrigin.position.z);
-    }
-
-    // Call this from PlayerThrow before firing if you want aim to also flip
-    public void FaceTowardX(float worldX)
+    void LateUpdate()
     {
-        FacingRight = worldX >= transform.position.x;
+        if (sprite) sprite.flipX = !FacingRight; // assumes art faces RIGHT by default
+        if (!throwOrigin) return;
+
+        // Use world bounds from collider OR renderer
+        Bounds wb;
+        if (bodyCol)         wb = bodyCol.bounds;
+        else if (sprite)     wb = sprite.bounds;    // fallback
+        else                 wb = new Bounds(transform.position, Vector3.one);
+
+        float x = FacingRight ? (wb.max.x + edgePadding) : (wb.min.x - edgePadding);
+        float y = wb.center.y + yOffset;
+
+        throwOrigin.position = new Vector3(x, y, throwOrigin.position.z);
+
+        // Debug line so you can SEE it in Scene view
+        Debug.DrawLine(new Vector3(x, y, 0f), wb.center, Color.cyan);
     }
+
+    public void FaceTowardX(float worldX) => FacingRight = worldX >= transform.position.x;
 }
